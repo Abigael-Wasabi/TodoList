@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import { Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import '../App.css'
 
 function Signup() {
@@ -14,7 +15,7 @@ function Signup() {
         <input></input><br></br>
         <label>Password</label><br></br>
         <input></input><br></br>
-        <Nav.Link href="/tasks"><button>Login</button></Nav.Link>
+        <Link to="/tasks"><button>Login</button></Link>
         <Nav.Link  style={{marginBottom:'30px'}} href="/signup">I'm new.Sign up</Nav.Link>
         </form>
         <Footer/>

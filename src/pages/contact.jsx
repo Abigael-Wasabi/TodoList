@@ -24,6 +24,7 @@ function Contact() {
                 <div>
                     <FontAwesomeIcon icon={faMapMarkerAlt} size="2x" />
                 </div>
+                Moi Avenue, Twins Tower
             </a>
             <a target='_blank' href="tel:+254111583196" rel="noreferrer">
               Talk to us
