@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import axios from 'axios';
-import { Dropdown, DropdownButton } from 'react-bootstrap';
+import { DropdownButton } from 'react-bootstrap';
 
 function Tasks() {
     const [tasks, setTasks] = useState([]);
@@ -164,7 +164,10 @@ function Tasks() {
                     </tr>
                 </tbody>
             </table>
+            <div style={{marginTop: '500px'}}>
             <Footer/>
+            </div>
+            
         </div>
     )
 }
