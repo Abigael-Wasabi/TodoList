@@ -58,10 +58,12 @@ function Signup() {
 
       if (!isEmailValid(email)) {
         console.log("Invalid email address");
+        alert("Invalid email address");
         return;
       }
       if (!isPasswordValid(password)) {
         console.log("Password does not meet complexity requirements");
+        alert("Password does not meet complexity requirements");
         return;
       }
       console.log(response.data); //response from the server
